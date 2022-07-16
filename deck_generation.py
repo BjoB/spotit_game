@@ -8,7 +8,7 @@ class SpotItDeck:
     """
     Class to create and work with a "SpotIt!" deck. The generation is based on a projective plane
     PG(2, n) with n²+n+1 points and lines. n+1 points are on each line, n+1 lines on each point.
-    Default value for the normal SpotIt deck is 7, leading to 57 cards.
+    Default value for the normal SpotIt deck is n=7, leading to 57 cards.
     """
 
     def __init__(self, images_dir: Path, n: int = 7):
